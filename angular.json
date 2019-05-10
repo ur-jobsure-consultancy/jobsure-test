@@ -62,7 +62,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "jobsure:build"
+            "browserTarget": "jobsure:build",
+            "port": 4216
           },
           "configurations": {
             "production": {
